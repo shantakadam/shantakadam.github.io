@@ -64,7 +64,7 @@ You can also host the CV on the site itself. Upload `CV.pdf` to the main folder 
 3. Rename the file to `background.jpg`.
 4. On GitHub, open the `images` folder → **Add file → Upload files** → drag in the new `background.jpg` → **Commit changes**. It replaces the old one.
 5. **Update the attribution** in the footer of all four `.html` files. Search for `Background photo:` and change the title, author, licence and links.
-6. Optional: to make the banner darker or lighter, open `style.css`, find `.banner`, and change the numbers `0.45` and `0.65`. Higher numbers make it darker.
+6. Optional: to make the banner darker or lighter, open `style.css`, find `--banner-overlay` near the top, and change the three numbers `0.10`, `0.35` and `0.75` (top, middle, bottom). Higher numbers make it darker. `--banner-position` just below it moves the photo up or down.
 
 To use a different file name, change `url("images/background.jpg")` in `style.css`.
 

@@ -5,9 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Shanta Kadam</title>
   <meta name="description" content="Shanta Kadam, PhD candidate in Economics at the University of Birmingham. Political Economy and Development Economics.">
+  <meta property="og:title" content="Shanta Kadam">
+  <meta property="og:description" content="Shanta Kadam, PhD candidate in Economics at the University of Birmingham. Political Economy and Development Economics.">
+  <meta property="og:image" content="https://shantakadam.github.io/images/profile.jpg">
+  <meta property="og:image:width" content="600">
+  <meta property="og:image:height" content="600">
+  <meta property="og:url" content="https://shantakadam.github.io/">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 </head>
-<body>
+<body class="home">
 
   <header class="site-header">
     <nav class="nav">
@@ -17,7 +29,7 @@
         <li><a href="research.html">Research</a></li>
         <li><a href="teaching.html">Teaching</a></li>
         <li><a href="others.html">Others</a></li>
-        <li><a href="https://www.dropbox.com/scl/fi/ib3p3w41q0riw71sym0ad/CV.pdf?rlkey=x4dztig8gu17dkmpxzn258iok&amp;st=8f76h1o7&amp;dl=0" target="_blank" rel="noopener">CV</a></li>
+        <li><a class="cv-link" href="https://www.dropbox.com/scl/fi/ib3p3w41q0riw71sym0ad/CV.pdf?rlkey=x4dztig8gu17dkmpxzn258iok&amp;st=8f76h1o7&amp;dl=0" target="_blank" rel="noopener">CV</a></li>
       </ul>
     </nav>
   </header>
@@ -27,12 +39,19 @@
     <div class="banner-text">
       <h1>Shanta Kadam</h1>
       <p>PhD Candidate in Economics, University of Birmingham</p>
+      <ul class="tags">
+        <li>Political Economy</li>
+        <li>Development Economics</li>
+        <li>Migration</li>
+        <li>Climate Change</li>
+        <li>Innovation</li>
+      </ul>
     </div>
   </section>
 
   <main>
     <div class="profile">
-      <img class="profile-photo" src="images/profile.jpg" alt="Photo of Shanta Kadam">
+      <img class="profile-photo" src="images/profile.jpg" alt="Photo of Shanta Kadam" width="600" height="600">
 
       <div class="profile-text">
         <p>Hello!</p>
@@ -44,12 +63,29 @@
         <p>You can find my CV <a href="https://www.dropbox.com/scl/fi/ib3p3w41q0riw71sym0ad/CV.pdf?rlkey=x4dztig8gu17dkmpxzn258iok&amp;st=8f76h1o7&amp;dl=0" target="_blank" rel="noopener">here</a>.</p>
 
         <div class="contact">
-          <h2>Get in touch!</h2>
+          <h2>Get in touch</h2>
+          <!-- Icons are inline SVG outlines; they take the accent colour from .contact .icon in style.css -->
           <ul>
-            <li><span class="label">Email:</span> <a href="mailto:sxk1378@student.bham.ac.uk">sxk1378@student.bham.ac.uk</a></li>
-            <li><span class="label">Personal Email:</span> <a href="mailto:shanta.kadam1@gmail.com">shanta.kadam1@gmail.com</a></li>
-            <li><span class="label">Google Scholar Page:</span> <a href="https://scholar.google.com/citations?user=Nujo5nwAAAAJ&amp;hl=en" target="_blank" rel="noopener">Click here</a></li>
-            <li><span class="label">LinkedIn:</span> <a href="https://www.linkedin.com/in/shanta-kadam-22720195/" target="_blank" rel="noopener">Click here</a></li>
+            <li>
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              <a href="mailto:sxk1378@student.bham.ac.uk">sxk1378@student.bham.ac.uk</a> <span class="note">(university)</span>
+            </li>
+            <li>
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              <a href="mailto:shanta.kadam1@gmail.com">shanta.kadam1@gmail.com</a> <span class="note">(personal)</span>
+            </li>
+            <li>
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg>
+              <a href="https://www.dropbox.com/scl/fi/ib3p3w41q0riw71sym0ad/CV.pdf?rlkey=x4dztig8gu17dkmpxzn258iok&amp;st=8f76h1o7&amp;dl=0" target="_blank" rel="noopener">Curriculum Vitae (PDF)</a>
+            </li>
+            <li>
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9.5 12 5l10 4.5L12 14z"/><path d="M6 11.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-4.5M22 9.5V15"/></svg>
+              <a href="https://scholar.google.com/citations?user=Nujo5nwAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
+            </li>
+            <li>
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg>
+              <a href="https://www.linkedin.com/in/shanta-kadam-22720195/" target="_blank" rel="noopener">LinkedIn</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -58,7 +94,7 @@
 
   <footer class="site-footer">
     <div class="inner">
-      <p>&copy; Shanta Kadam</p>
+      <p>&copy; 2026 Shanta Kadam &middot; University of Birmingham</p>
       <p>Background photo: <a href="https://commons.wikimedia.org/wiki/File:Great_Hall_seen_in_line_with_the_clock_tower.jpg" target="_blank" rel="noopener">&ldquo;Great Hall seen in line with the clock tower&rdquo;</a> by Tom Axford, licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>, via Wikimedia Commons (resized and darkened).</p>
     </div>
   </footer>
